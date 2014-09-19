@@ -31,14 +31,14 @@
 ++  bean  ,?                                            ::  0=&=yes, 1=|=no
 ++  beer  $|(@ [~ p=twig])                              ::  simple embed
 ++  beet  $|  @                                         ::  advanced embed
-          $%  [%a p=twig]                               ::
-              [%b p=twig]                               ::
-              [%c p=twig]                               ::
-              [%d p=twig]                               ::
-              [%e p=twig q=(list tuna)]                 ::
+          $%  [%a p=twig]                               ::  take tape
+              [%b p=twig]                               ::  take manx
+              [%c p=twig]                               ::  take marl
+              [%d p=twig]                               ::  take $+(marl marl)
+              [%e p=twig q=(list tuna)]                 ::  element literal
           ==                                            ::
 ++  bloq  ,@                                            ::  blockclass
-++  calf  ,[p=(map ,@ud wine) q=wine]                   ::
+++  calf  ,[p=(map ,@ud wine) q=wine]                   ::  backreferenced type
 ++  char  ,@tD                                          ::  UTF-8 byte
 ++  chub                                                ::  registered battery
           $:  p=(pair chum tyre)                        ::  definition
