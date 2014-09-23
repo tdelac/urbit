@@ -1,2 +1,2 @@
-Quick Reference Handbook
+Type Inference Algorithm
 ========================
